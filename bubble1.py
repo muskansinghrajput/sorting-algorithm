@@ -9,7 +9,7 @@ def bubbleSort(nums):
                 nums[i] = nums[i+1]
                 nums[i+1] = temp
 nums=[]
-for i in range(100):
+for i in range(1000):
     nums.append(rd.randint(10,90))
 
 bubbleSort(nums)
